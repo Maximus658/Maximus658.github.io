@@ -22,11 +22,12 @@
     </head>
     <body>
         <header id="header"></header>
-        <?php echo '<p>Привет, мир!</p>'; ?>
+        <p id="p">Привет, мир!</p>
         <script type="text/javascript">
             header.onclick = function ()
             {
                 header.style.backgroundColor = "gray";
+                p.innerHTML = "Hello Maksim";
             };
         </script>
     </body>
