@@ -22,6 +22,7 @@
     </head>
     <body>
         <header id="header"></header>
+        <?php echo '<p>Привет, мир!</p>'; ?>
         <script type="text/javascript">
             header.onclick = function ()
             {
