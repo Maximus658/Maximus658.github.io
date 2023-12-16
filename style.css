@@ -36,7 +36,7 @@ header {
 @media (max-width: 340px) {
 	div {
 		font-size: 16px;
-		/*background-image: url(imgmini.jpg);*/
+		background-image: url(imgmini.jpg);
 	}
 }
 @media (max-width: 207px) {
